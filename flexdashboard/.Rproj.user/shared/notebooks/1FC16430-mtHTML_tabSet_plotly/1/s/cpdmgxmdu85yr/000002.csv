@@ -1,0 +1,4 @@
+"0","servr::daemon_stop("
+"0","  which=servr::daemon_list()"
+"0",")"
+"0","servr::httd(dir=""."",port=8800,initpath=params$output_filename)"

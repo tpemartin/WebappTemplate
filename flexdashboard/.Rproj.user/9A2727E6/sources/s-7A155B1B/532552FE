@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1578465591598.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "532552FE",
+    "lastKnownWriteTime" : 1578465724,
+    "last_content_update" : 1578465724457,
+    "path" : "~/Desktop/GitHub/WebappTemplate/flexdashboard copy/flxdashboard_control_tabset.Rmd",
+    "project_path" : "../flexdashboard copy/flxdashboard_control_tabset.Rmd",
+    "properties" : {
+        "cursorPosition" : "60,29",
+        "scrollLine" : "46"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

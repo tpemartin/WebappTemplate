@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1578465901363.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "5765C9B4",
+    "lastKnownWriteTime" : 1578464519,
+    "last_content_update" : 1578464519,
+    "path" : "~/Desktop/GitHub/WebappTemplate/flexdashboard/bsHTML/bsHTML_flxdb.Rmd",
+    "project_path" : "bsHTML/bsHTML_flxdb.Rmd",
+    "properties" : {
+        "cursorPosition" : "17,30",
+        "scrollLine" : "14"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

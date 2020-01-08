@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1577444863547.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2049010208",
+    "id" : "1DF6C9A4",
+    "lastKnownWriteTime" : 1577447862,
+    "last_content_update" : 1577447862343,
+    "path" : "~/Dropbox/github-data/webProjectTemplate/js/materialize_init.js",
+    "project_path" : "js/materialize_init.js",
+    "properties" : {
+        "cursorPosition" : "22,39",
+        "scrollLine" : "6"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "js"
+}

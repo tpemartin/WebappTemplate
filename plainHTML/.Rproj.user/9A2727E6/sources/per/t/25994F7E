@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1577443951817.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3294133373",
+    "id" : "25994F7E",
+    "lastKnownWriteTime" : 1577457602,
+    "last_content_update" : 1577457602416,
+    "path" : "~/Dropbox/github-data/webProjectTemplate/HTML_materialize_UFO.Rmd",
+    "project_path" : "HTML_materialize_UFO.Rmd",
+    "properties" : {
+        "cursorPosition" : "51,0",
+        "last_setup_crc32" : "9F4DA653ec701a3d",
+        "scrollLine" : "37"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

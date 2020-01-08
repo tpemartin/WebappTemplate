@@ -1,0 +1,7 @@
+<ul class="sidenav" id="mobile-demo">
+    <li><a href="#">控制台</a></li>
+    <li><a href="#">說明</a></li>
+</ul>
+
+<div id="test1" class="col s12">活動建立面版</div>
+<div id="test2" class="col s12">活動追踪面版</div>

@@ -1,0 +1,5 @@
+"0","library(dplyr); library(ggplot2); library(plotly); library(widgetframe)"
+"0","p <- ggplot(mtcars, aes(x = wt, y = mpg)) +"
+"0","   geom_point() + geom_smooth()"
+"0","pltly_p0 <- ggplotly(p)"
+"0","pltly_p0 %>% partial_bundle() %>% frameWidget()"

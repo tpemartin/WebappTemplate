@@ -1,0 +1,4 @@
+"0","library(leaflet)"
+"0","library(widgetframe)"
+"0","l <- leaflet() %>% addTiles()"
+"0","htmlwidgets::saveWidget(frameableWidget(l),'leaflet.html')"

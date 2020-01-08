@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1578211701543.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2947595523",
+    "id" : "4FE66F4",
+    "lastKnownWriteTime" : 1578206040,
+    "last_content_update" : 1578206040,
+    "path" : "~/Desktop/GitHub/WebappTemplate/flexdashboard/bsHTML.Rmd",
+    "project_path" : "../bsHTML.Rmd",
+    "properties" : {
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

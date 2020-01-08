@@ -1,0 +1,4 @@
+"0","knitr::opts_chunk$set(echo = F, message=F, warning=F)"
+"0","library(flexdashboard);library(dplyr)"
+"0","library(widgetframe)"
+"0","source(""./R/support.R"")"

@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1578465813351.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "5201139C",
+    "lastKnownWriteTime" : 1578463710,
+    "last_content_update" : 1578465820450,
+    "path" : "~/Desktop/GitHub/WebappTemplate/flexdashboard/mtHTML/mtHTML_plotly.Rmd",
+    "project_path" : "mtHTML/mtHTML_plotly.Rmd",
+    "properties" : {
+        "cursorPosition" : "37,62",
+        "last_setup_crc32" : "7A155B1Bd47e7bd6",
+        "scrollLine" : "29"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

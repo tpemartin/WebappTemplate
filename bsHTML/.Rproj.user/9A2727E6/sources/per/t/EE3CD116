@@ -1,0 +1,27 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1577862036718.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2947595523",
+    "id" : "EE3CD116",
+    "lastKnownWriteTime" : 1578208573,
+    "last_content_update" : 1578208711983,
+    "path" : "~/Desktop/GitHub/WebappTemplate/bsHTML/bsHTML.Rmd",
+    "project_path" : "bsHTML.Rmd",
+    "properties" : {
+        "cursorPosition" : "108,0",
+        "docOutlineVisible" : "1",
+        "last_setup_crc32" : "",
+        "scrollLine" : "105"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

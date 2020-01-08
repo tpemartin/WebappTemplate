@@ -1,0 +1,71 @@
+---
+output: 
+  html_document:
+    theme: null
+    highlight: null
+    mathjax: null
+    self_contained: false
+    includes:
+      in_header: "external/in_header/materialize_head.html"  
+      before_body: null 
+      after_body: "external/after_body/af_body_materialize.html"  
+params:
+  output_filename: "HTML_materialize_UFO.html"
+  dir: "."
+  title: "國立臺北大學UFO"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F, eval=T)
+library(htmltools)
+```
+
+```{r local serve, eval=F, echo=F}
+# 啟動local serve: 只需一次
+servr::daemon_stop(
+  which=servr::daemon_list()
+)
+servr::httd(dir=params$dir,port=8000,initpath=params$output_filename)
+```
+
+```{r open browser, eval=F, echo=F}
+# Browser瀏覽本文件knit完之html檔
+browseURL(paste0("http://localhost:8000/",params$output_filename))
+```
+
+<header style="background-color: #ee6e73;">
+<div class="container">
+```{r}
+h4(params$title,
+   class="grey-text text-lighten-3")
+```
+</div>
+</header>
+
+<main style="z-index: 1;">
+<div class="container-fluid">
+  <div class="row" style="height: 100%;">
+  <div class="col s12 m3 blue lighten-5" style="height: 100%">
+```{r}
+includeHTML("./assets/control_tabs2.html")
+```
+
+```{r, eval=F}
+includeHTML("./assets/control_content.html")
+```
+
+  </div>
+  <div class="col s12 m9" style="height: 100%">
+```{r}
+print("第二區塊")
+```
+  </div>
+
+  </div>
+</div>
+</main>
+<footer class="page-footer" style="z-index: 2">
+```{r}
+includeHTML("./assets/footer_UFO.html")
+```
+</footer>

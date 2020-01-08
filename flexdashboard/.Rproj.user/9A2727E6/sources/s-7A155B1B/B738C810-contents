@@ -1,0 +1,88 @@
+---
+output: 
+  html_document:
+    theme: null
+    highlight: null
+    mathjax: null
+    self_contained: false
+    includes:
+      in_header: "external/in_header/header.html"
+      before_body: "external/before_body/before_body.html"
+      after_body: "external/after_body/after_body.html"
+params:
+  output_filename: "mtHTML_tabSet_plotly.html"
+---
+```{r local serve, eval=F, echo=F}
+servr::daemon_stop(
+  which=servr::daemon_list()
+)
+servr::httd(dir=".",port=8800,initpath=params$output_filename)
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F, message=F, warning=F)
+library(dplyr)
+```
+
+
+<div class="container-fluid">
+<div class="row">
+<nav class="nav-extended">
+<div class="nav-content">
+<ul class="tabs tabs-transparent">
+<li class="tab"><a class="active" href="#test1">圖形</a></li>
+<li class="tab"><a href="#test2">說明</a></li>
+</ul>
+</div>
+</nav>
+
+<div id="test1" class="col s12" style="position: relative;">
+
+```{r, eval=F, echo=F}
+library(dplyr); library(ggplot2); library(plotly); library(widgetframe)
+p <- ggplot(mtcars, aes(x = wt, y = mpg)) +
+   geom_point() + geom_smooth()
+pltly_p0 <- ggplotly(p)
+htmlwidgets::saveWidget(frameableWidget(pltly_p0),'pltly_p0.html')
+"pltly_p0.html" %>%
+to_frameableHTML(regularHTML = T) # plotly htmlwidget要
+```
+
+
+<div id="example" width="100%" height="100%"></div>
+<script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
+<script>
+    var pymParent = new pym.Parent("example", "pltly_p0.html", {});
+</script>
+
+```{r, eval=T, echo=F}
+htmltools::includeHTML("external/within_body/mtContent.html")
+```
+</div>
+<div id="test2" class="col s12">
+
+  1. mtHTML_plotly.Rmd: 手動執行plotly widget轉frameable html。
+  
+  2. mtHTML_plotly.Rmd: 貼上to_frameableHTML的提示。
+  
+  3. knit mtHTML_plotly.Rmd。
+  
+以上完成mtHTML_plotly.html檔，接下來要完成flexdashboard:
+  
+  4. flxdashboard_control.Rmd貼上： 
+  ```
+  <iframe
+  src = "mtHTML/mtHTML_plotly.html"
+  scrolling = "no" 
+  seamless = "seamless"
+  frameBorder = "0"
+  width="100%"
+  height="100%"></iframe>
+  ```
+  留意一下路徑從flxdashboard_control.Rmd角度來看是否正確。
+
+</div>
+
+</div>
+</div>
+

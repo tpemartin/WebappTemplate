@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1578208956456.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2605790796",
+    "id" : "EF6C974F",
+    "lastKnownWriteTime" : 1578211111,
+    "last_content_update" : 1578211111922,
+    "path" : "~/Desktop/GitHub/WebappTemplate/flexdashboard/bsHTML/external/in_header/header.html",
+    "project_path" : "external/in_header/header.html",
+    "properties" : {
+        "cursorPosition" : "10,8",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "html"
+}

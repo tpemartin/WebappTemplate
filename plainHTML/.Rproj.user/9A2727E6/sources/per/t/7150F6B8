@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1577450312925.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3544374715",
+    "id" : "7150F6B8",
+    "lastKnownWriteTime" : 1577450711,
+    "last_content_update" : 1577450711059,
+    "path" : "~/Dropbox/github-data/webProjectTemplate/css/materialize_mystyle.css",
+    "project_path" : "css/materialize_mystyle.css",
+    "properties" : {
+        "cursorPosition" : "33,2",
+        "scrollLine" : "17"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "css"
+}
